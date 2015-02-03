@@ -7,8 +7,8 @@
   },
   name:         'almond',
   include:      'readium',
-  out:          'dist/readium.js',
-  optimize:     'none',
+  out:          'dist/readium.min.js',
+  optimize:     'uglify2',
   wrapShim:     true,
   wrap:         true
 })

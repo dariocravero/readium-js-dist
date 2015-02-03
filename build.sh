@@ -82,16 +82,13 @@ read -p "When you're done, press [enter] to continue with the compilation step..
 
 # Build Readium not to use requirejs through almondjs
 ./node_modules/requirejs/./bin/r.js -o build.js
+./node_modules/requirejs/./bin/r.js -o build-min.js
 
 # Compile all the assets into a minified file that include all the vendor libs
 uglifyjs lib/jquery.min.js \
   lib/underscore.min.js \
   lib/backbone.min.js \
-  dist/readium.js \
-  -o dist/readium.min.js --source-map dist/readium.min.js.map -p 5 -c -m
-
-# Provide a gzipped version for whomever wants it
-gzip -c dist/readium.min.js > dist/readium.min.js.gz
+  -o dist/readium-vendor.min.js -p 5 -c -m
 
 cat <<EOF
 
