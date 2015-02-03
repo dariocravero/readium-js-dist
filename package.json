@@ -3,6 +3,10 @@
   "version":      "0.0.1",
   "description":  "Readium.js dist",
   "main":         "dist/readium.js",
+  "repository":   {
+    "type":       "git",
+    "url":        "https://github.com/dariocravero/readium-js-dist.git"
+  },
   "devDependencies": {
     "requirejs":   "^2.1.15"
   },
