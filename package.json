@@ -1,6 +1,6 @@
 {
   "name":         "readium-js-dist",
-  "version":      "0.0.1",
+  "version":      "0.0.2",
   "description":  "Readium.js dist",
   "main":         "dist/readium.js",
   "repository":   {
