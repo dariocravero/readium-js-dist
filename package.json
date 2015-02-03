@@ -1,0 +1,12 @@
+{
+  "name":         "readium-js-dist",
+  "version":      "0.0.1",
+  "description":  "Readium.js dist",
+  "main":         "dist/readium.js",
+  "devDependencies": {
+    "requirejs":   "^2.1.15"
+  },
+  "readme":       "README.md",
+  "author":       "Darío Javier Cravero <dario.cravero@hmhco.com>",
+  "license":      "MIT"
+}
