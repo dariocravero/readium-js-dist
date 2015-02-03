@@ -9,6 +9,7 @@ Play around with `ReadiumSDK` at `sandbox-dev.html` and `sandbox-prod.html`.
 ## Dist
 
 `dist/readium.js` is a requirejs-free version of Readium.js.
+
 `dist/readium.min.js` contains the final files you would need to run Readium
 together with its vendor assets.
 
